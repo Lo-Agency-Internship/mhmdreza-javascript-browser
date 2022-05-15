@@ -4,4 +4,4 @@ function onclicks( )
     document.getElementById("backgroundcolor").style.backgroundColor ='#'+color
     console.log(color)
 }
- 
+  
