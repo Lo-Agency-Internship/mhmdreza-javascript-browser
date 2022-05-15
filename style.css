@@ -18,12 +18,13 @@ button
     font-size: 20px;
     letter-spacing: 3px;
     border-radius: 15px;
+     cursor: pointer;
 }
-.box
+.change
 {
     display: flex;
-    height: 600px;
     align-items: center;
     justify-content: center;
-
+    height: 600px;
+   
 }
