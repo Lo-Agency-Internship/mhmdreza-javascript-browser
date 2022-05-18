@@ -7,15 +7,68 @@
     <title>change Hex</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="backgroundcolor">
+<body>
     
-
+<!-- project one hex -->
+<div id="backgroundcolor">
     <div class="change">
-        <div class="box"><button onclick="onclicks()">Click here</button></div>
-       
+        <div class="box"><button onclick="onclicks()" class="box-button">Click here</button></div>
     </div>
+</div>   
+<!--end of project one -->
 
 
+
+ <!-- project two  -->
+
+<div class="body">
+    <h1 class="head-text">Our <span>Store</span></h1>
+    <div class="all-button">
+        <button onclick="onclicks1(name)" class="button-filter" name="all" >All</button>
+        <button onclick="onclicks1(name)" class="button-filter" name="sweet">Sweet</button>
+        <button onclick="onclicks1(name)" class="button-filter" name="cupcake">cupcake</button>
+        <button onclick="onclicks1(name)" class="button-filter" name="cake">Cake</button>
+        <button onclick="onclicks1(name)" class="button-filter" name="dounat">Dounat</button>
+    </div>
+    <div class="searchbar">
+        <div class="search-style">
+            <button onclick="onclicks2()" class="search-filter" >
+            <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px"><path d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z"/>
+            </svg>
+            </button>
+            <input type="text" id="search" value="text">
+        </div>
+    </div>
+    <div class="all-cards">
+        <div class="basic-card sweet all" >
+            <div class="image"><img src="./image/sweet.jpg" alt=""></div>
+            <div class="text-card"><h2>sweet item</h2> <p>$5</p></div>
+        </div>
+        <div class="basic-card cake all">
+            <div class="image"><img src="./image/cake.jpg" alt=""></div>
+            <div class="text-card"><h2>cake item</h2><p>$5</p></div>
+        </div>
+        <div class="basic-card cupcake all">
+            <div class="image"><img src="./image/cupcake.jpg" alt=""></div>
+            <div class="text-card"><h2>cupcake item</h2> <p>$5</p></div>
+        </div>
+        <div class="basic-card dounat all " >
+            <div class="image"><img src="./image/dounat.jpg" alt=""></div>
+            <div class="text-card"><h2>dounat item</h2> <p>$5</p></div>
+        </div>
+        <div class="basic-card sweet all ">
+            <div class="image"><img src="./image/sweet1.jpg" alt=""></div>
+            <div class="text-card"><h2>sweet item</h2> <p>$10</p></div>
+        </div>
+        <div class="basic-card cupcake all">
+            <div class="image"><img src="./image/cupcake1.jpg" alt=""></div>
+            <div class="text-card"><h2 >cupcake item</h2> <p>$10</p></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- end of project two -->
 
     <script src="main.js"></script>
 </body>
