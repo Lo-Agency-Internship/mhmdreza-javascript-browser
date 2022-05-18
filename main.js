@@ -1,19 +1,16 @@
 // <!-- project one --> hex
-// function onclicks( )
-// {
-//     let color = Math.floor(Math.random()*16666666).toString(16);
-//     document.getElementById("backgroundcolor").style.backgroundColor ='#'+color
-//     console.log(color)
-// }
+function onclicks( )
+{
+    let color = Math.floor(Math.random()*16666666).toString(16);
+    document.getElementById("backgroundcolor").style.backgroundColor ='#'+color
+    console.log(color)
+}
 // <!-- project two -->
 
 
 
 
-
 // start project 2 --> filter 
-
-
 
 function onclicks1(name) {  
   if (name!=="all") {
